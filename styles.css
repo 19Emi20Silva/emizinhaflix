@@ -1,0 +1,65 @@
+body {
+    background: black;
+      color: white;
+      margin: 0px;
+      font-family: "Josefin Sans", sans-serif;
+      margin-bottom: 100px;
+  }
+
+  header {
+    border-bottom: solid 2px rgb(213, 235, 19);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(158, 26, 219);
+}
+
+
+.chamada {
+    background: rgb(106, 23, 195);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+ div {
+    margin-right: 5%;
+} 
+
+h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    height: 350px;
+  }
+
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.pingo {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid greenyellow;
+}
+
+.pingo h2 {
+    color: rgb(158, 26, 219);
+}
